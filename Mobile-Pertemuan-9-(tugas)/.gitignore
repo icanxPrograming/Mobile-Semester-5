@@ -18,6 +18,17 @@ migrate_working_dir/
 *.iws
 .idea/
 
+# ============================================
+# FIREBASE – IGNORE SENSITIVE FILES
+# ============================================
+
+# FlutterFire config (berisi API key, App ID, dll)
+lib/firebase_options.dart
+firebase_options.dart
+
+# Android google-services (berisi client ID)
+android/app/google-services.json
+
 # The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
 # is commented out by default.
